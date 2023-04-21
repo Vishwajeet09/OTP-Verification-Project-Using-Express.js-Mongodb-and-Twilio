@@ -1,0 +1,22 @@
+<%- include('./partial/header.ejs') %>
+
+
+<br>
+<form method="post" action="/login" >
+<div class="main">
+    <div class="row mb-3">
+        <label for="phoneNumber" class="col-sm-2 col-form-label">Phone Number</label>
+        <div class="col-sm-10">
+        <input type="text" class="form-control" id="phoneNumber" placeholder="Enter Your PhoneNumber" name="phoneNumber">
+        </div>
+    </div>
+    <div class="text-center my-3 mx-5">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+
+    
+</form>
+
+
+<%- include('./partial/footer.ejs') %>
